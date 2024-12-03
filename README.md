@@ -1,6 +1,6 @@
 # Text Summarization
 
-The project implements abstractive and extractive text summarization by processing input text files to generate concise, character-based summaries.
+This project implements both abstractive and extractive text summarization techniques. It uses PEGASUS for abstractive summarization, generating concise summaries from long texts and TextRank for extractive summarization, selecting key sentences to create a meaningful summary.
 
 ## Execution Guide:
 
