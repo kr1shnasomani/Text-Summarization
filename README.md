@@ -2,7 +2,7 @@
 
 The project implements abstractive and extractive text summarization by processing input text files to generate concise, character-based summaries.
 
-## How to Run the Code
+## Execution Guide:
 
 1. Run the following command lines in the terminal:
 
@@ -31,5 +31,5 @@ The project implements abstractive and extractive text summarization by processi
    ![WhatsApp Image 2024-12-03 at 18 10 32_ae95aa51](https://github.com/user-attachments/assets/bd469487-8500-4817-8783-fd5f1f127651)
 
 
-## Overview
+## Overview:
 Abstractive summarization rephrases and generates new sentences, making it suitable for creative and human-like summaries. It is ideal when clarity, context, or brevity is required, such as in news highlights or executive reports. Extractive summarization selects key sentences directly from the text, ensuring factual accuracy and is best for legal, scientific, or technical documents where preserving original phrasing is crucial. Neither is universally superior; the choice depends on the use case. For tasks demanding contextual understanding, abstractive works best, while extractive is reliable for concise, factual extracts. Combining both approaches can often provide optimal results in hybrid scenarios.
