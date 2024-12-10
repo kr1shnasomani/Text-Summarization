@@ -34,7 +34,7 @@ This project implements both abstractive and extractive text summarization techn
 ## Overview:
 The provided code includes two separate Python scripts for text summarization: one using **Abstractive Summarization** with a pre-trained PEGASUS model and another using **Extractive Summarization** with the **TextRank** algorithm via the SpaCy library. Here's an overview of each script and a comparison to determine which one might be best for different use cases.
 
-### 1. **Abstractive Summarization (`abstractive.py`)**
+1. **Abstractive Summarization (`abstractive.py`)**
    - **Libraries Used**:
      - **PEGASUS**: A pre-trained model from Google's Transformer-based models specifically designed for abstractive summarization.
      - **Transformers**: Hugging Face library to easily load pre-trained models.
@@ -52,7 +52,7 @@ The provided code includes two separate Python scripts for text summarization: o
      - The model is dependent on the pre-trained data it was fine-tuned on (news summarization in the case of XSUM), so it might not perform optimally on all domains.
      - It requires more computational resources due to the size and complexity of the PEGASUS model.
 
-### 2. **Extractive Summarization (`extractive.py`)**
+2. **Extractive Summarization (`extractive.py`)**
    - **Libraries Used**:
      - **SpaCy**: An NLP library for processing text and extracting information.
      - **PyTextRank**: A library that implements the TextRank algorithm for extractive summarization.
