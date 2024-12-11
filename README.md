@@ -32,7 +32,7 @@ This project implements both abstractive and extractive text summarization techn
 
 
 ## Overview:
-The provided code includes two separate Python scripts for text summarization: one using **Abstractive Summarization** with a pre-trained PEGASUS model and another using **Extractive Summarization** with the **TextRank** algorithm via the SpaCy library. Here's an overview of each script and a comparison to determine which one might be best for different use cases.
+The repository includes two separate Python scripts for text summarization: one using **Abstractive Summarization** with a pre-trained PEGASUS model and another using **Extractive Summarization** with the **TextRank** algorithm via the SpaCy library. Here's an overview of each script and a comparison to determine which one might be best for different use cases.
 
 1. **Abstractive Summarization (`abstractive.py`)**
    - **Libraries Used**:
