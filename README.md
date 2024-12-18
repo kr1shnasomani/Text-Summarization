@@ -1,5 +1,4 @@
-# Text Summarizer
-
+<h1 align="center">SummarAI</h1>
 This project implements both abstractive and extractive text summarization techniques. It uses PEGASUS for abstractive summarization, generating concise summaries from long texts and TextRank for extractive summarization, selecting key sentences to create a meaningful summary.
 
 ## Execution Guide:
